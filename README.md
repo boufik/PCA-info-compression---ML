@@ -1,2 +1,1 @@
-# PCA-info-compression---ML
-PCA is a ML technique, where we can reduce data dimensionality.
+PCA is a ML technique, where we can reduce data dimensionality. This is achieved by trying to figure out the eigenvalues and eigenvectors of the set's attributes. By this way, we can discover how many principal components a data set has and we can select the most significant of them to reduce the data dimensionality. So, we have to choose the eigenvectors with the biggest values of corresponding eigenvalues. In this example the dataset has 2 variables (so 2 eigenvectors) and we try to compress the info using only 1. In the end, we calclulate the percentage of information loss.
